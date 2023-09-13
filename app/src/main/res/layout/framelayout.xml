@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="411dp"
+        android:layout_height="219dp"
+        android:background="#2C444E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="29dp"
+            android:text="Magnifying Glass"
+            android:textColor="#ECE8E8"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <ImageView
+            android:id="@+id/dotButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_dots"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="320dp"
+        android:layout_height="259dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rounded_frame"
+        app:layout_constraintBottom_toTopOf="@id/secondLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/livemagnifier"
+            android:layout_width="287dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/rounded_button"
+            app:iconTint="#F0F2F2" >
+
+            <ImageView
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/ic_cam_svg"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="12dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/livemagnifierbutton"
+                android:layout_width="100dp"
+                android:layout_height="18dp"
+                android:text="Live Magnifier"
+                android:textColor="#2C444E"
+                android:textSize="14sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="60dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/livemagnifi"
+            android:layout_width="134dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/rounded_button"
+            app:iconTint="#F0F2F2" >
+
+            <ImageView
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/ic_gall_svg"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/imagemagnifierbutton"
+                android:layout_width="105dp"
+                android:layout_height="22dp"
+                android:text="Image Magnifier"
+                android:textColor="#2C444E"
+                android:textSize="14sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="68dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/livemagni"
+            android:layout_width="134dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/rounded_button"
+            app:iconTint="#F0F2F2" >
+
+            <ImageView
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/ic_files_svg"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/savedfilesbutton"
+                android:layout_width="80dp"
+                android:layout_height="21dp"
+                android:text="Saved files"
+                android:textColor="#2C444E"
+                android:textSize="14sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="27dp"
+                tools:layout_editor_absoluteY="65dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/secondLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/frameLayout">
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

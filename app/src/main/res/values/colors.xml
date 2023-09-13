@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#14162D</color>
+    <color name="colorPrimaryDark">#14162D</color>
+    <color name="colorAccent">#14162D</color>
+    <color name="background">#14162D</color>
+    <color name="trans">#00F44336</color>
+    <color name="textcolor">#2a2b2f</color>
+    <color name="backgroundDrawer">#272B50</color>
+    <color name="backgroundImage">#303357</color>
+    <color name="rating_bar">#F4BE19</color>
+
+    <color name="activityBgColor">#fff</color>
+    <color name="activityBgColor2">#E9F0FE</color>
+
+    <color name="colorOnWhite">#272B50</color>
+    <color name="shimmerColor">#DADADA</color>
+    <color name="black">#000</color>
+
+    <color name="ad_attribution_color2">#3a9631</color>
+    <color name="colorGray">#C17C7C7C</color>
+    <color name="colorOnBlack">#94FFFFFF</color>
+    <color name="backgroundColor">#94FFFFFF</color>
+    <color name="purple_500">#FF6200EA</color>
+    <color name="purple_700">#FF6200EA</color>
+    <color name="purple_200">#FF6200EA</color>
+    <color name="teal_200">#FF6200EA</color>
+    <color name="teal_700">#FF6200EA</color>
+    <color name="white">#FF6200EA</color>
+
+    <color name="progressBackgroundTintColor">#94FFFFFF</color>
+
+
+
+
+
+
+
+</resources>
